@@ -1,0 +1,193 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@*<div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>*@
+
+<section class="page-section bg-secondary text-white mb-0" id="propuesta">
+    <div class="container">
+
+        <!-- About Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-white">Propuesta</h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- About Section Content -->
+        <div class="row">
+            <div class="col-lg-12 ml-auto text-center">
+                <img class="img-fluid" src="~/img/tecnologia-agricultura.jpg" style="width:50%;" />
+                <p class="lead">Dinamizar la economia hondureña, proporcionando herramientas tecnologicas <br /> que permita a los agricultores exponer sus productos a compradores nacionales e internacionales.</p>
+                <p></p>
+            </div>
+        
+        </div>
+
+
+
+    </div>
+</section>
+
+<section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+
+        <!-- About Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-white">Clientes</h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- About Section Content -->
+        <div class="row">
+            <div class="col-lg-4 ml-auto">
+                <h3>Agricultores</h3>
+
+                <p class="lead">Clientes que publicaran sus productos en la aplicación para generar ventas.</p>
+            </div>
+            <div class="col-lg-4 mr-auto">
+                <h3>Compradores</h3>
+                <p class="lead">Clientes que utilizaran la plataforma para ver los productos ofertados por los agricultores.</p>
+            </div>
+        </div>
+
+
+
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+
+        <!-- Portfolio Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Planes</h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- Portfolio Grid Items -->
+        <div class="row">
+
+            <!-- Portfolio Item 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white">
+                            <i class="fas fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    @*<img class="img-fluid" src="img/portfolio/cabin.png" alt="">*@
+                    <img class="img-fluid" src="~/img/Basico.png" />
+                </div>
+            </div>
+
+            <!-- Portfolio Item 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white">
+                            <i class="fas fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="~/img/Estandar.png" />
+                </div>
+            </div>
+
+            <!-- Portfolio Item 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white">
+                            <i class="fas fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="~/img/Premium.png" />
+                </div>
+            </div>
+
+          
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+</section>
+
+<!-- About Section -->
+<!-- Contact Section -->
+<section class="page-section" id="contact">
+    <div class="container">
+
+        <!-- Contact Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contactanos</h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- Contact Section Form -->
+        <div class="row">
+            <div class="container">
+                <div class="row text-center">
+
+                    <!-- Footer Location -->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Direccion</h4>
+                        <p class="lead mb-0">
+                            Col Enmanuel, El Progreso, Yoro
+
+                        </p>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Telefono</h4>
+                        <p class="lead mb-0">
+                            + 504 31657826
+
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Correo</h4>
+                        <p class="lead mb-0">
+                            Info@agroapp.com.hn
+
+                        </p>
+                    </div>
+
+               
+
+                   
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
